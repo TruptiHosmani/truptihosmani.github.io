@@ -1,7 +1,14 @@
 import React, { Component } from 'react';
 import "./Resume.css"
 import profile from '../../images/profile.jpg';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
 
+import CovidTracker from '../CovidTracker/CovidTracker';
 
 class Resume extends Component {
   render() {
@@ -20,7 +27,7 @@ class Resume extends Component {
                     <li className="nav-item"><a className="nav-link js-scroll-trigger" href="#education">Education</a></li>
                     <li className="nav-item"><a className="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
                     <li className="nav-item"><a className="nav-link js-scroll-trigger" href="#interests">Interests</a></li>
-                    <li className="nav-item"><a className="nav-link js-scroll-trigger" href="#awards">Awards</a></li>
+                    <li className="nav-item"><a className="nav-link js-scroll-trigger" href="#awards">Projects</a></li>
                 </ul>
             </div>
         </nav>
@@ -30,14 +37,14 @@ class Resume extends Component {
             <section className="resume-section" id="about">
                 <div className="resume-section-content">
                     <h1 className="mb-0">
-                        Clarence
-                        <span className="text-primary">Taylor</span>
+                        Trupti
+                        <span className="text-primary">Hosmani</span>
                     </h1>
                     <div className="subheading mb-5">
                         Magarpatta City · Pune 411028 · +91 8600 186 773 ·
                         <a href="mailto:trupti.hosamani7@gmail.cm">trupti.hosamani7@gmail.cm</a>
                     </div>
-                    <p className="lead mb-5">I am experienced in leveraging agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.</p>
+                    <p className="lead mb-5">I am Full Stack Developer. I love working on ReactJS, Ruby on Rails technologies.</p>
                     <div className="social-icons">
                         <a className="social-icon" href="#!"><i className="fab fa-linkedin-in"></i></a>
                         <a className="social-icon" href="#!"><i className="fab fa-github"></i></a>
@@ -92,20 +99,20 @@ class Resume extends Component {
                     <h2 className="mb-5">Education</h2>
                     <div className="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div className="flex-grow-1">
-                            <h3 className="mb-0">University of Colorado Boulder</h3>
-                            <div className="subheading mb-3">Bachelor of Science</div>
-                            <div>Computer Science - Web Development Track</div>
-                            <p>GPA: 3.23</p>
+                            <h3 className="mb-0">GMIT Davangere, India</h3>
+                            <div className="subheading mb-3">Bachelor of Engineering</div>
+                            <div>Computer Science</div>
+                            {/* <p></p> */}
                         </div>
-                        <div className="flex-shrink-0"><span className="text-primary">August 2006 - May 2010</span></div>
+                        <div className="flex-shrink-0"><span className="text-primary">Oct 2004 - Jul 2008</span></div>
                     </div>
                     <div className="d-flex flex-column flex-md-row justify-content-between">
                         <div className="flex-grow-1">
-                            <h3 className="mb-0">James Buchanan High School</h3>
-                            <div className="subheading mb-3">Technology Magnet Program</div>
-                            <p>GPA: 3.56</p>
+                            <h3 className="mb-0">Master of Science</h3>
+                            <div className="subheading mb-3">Santa Clara University, Santa Clara</div>
+                            <div>Computer Science</div>
                         </div>
-                        <div className="flex-shrink-0"><span className="text-primary">August 2002 - May 2006</span></div>
+                        <div className="flex-shrink-0"><span className="text-primary">March 2011 - May 2013</span></div>
                     </div>
                 </div>
             </section>
@@ -118,16 +125,13 @@ class Resume extends Component {
                     <ul className="list-inline dev-icons">
                         <li className="list-inline-item"><i className="fab fa-html5"></i></li>
                         <li className="list-inline-item"><i className="fab fa-css3-alt"></i></li>
-                        <li className="list-inline-item"><i className="fab fa-js-square"></i></li>
-                        <li className="list-inline-item"><i className="fab fa-angular"></i></li>
                         <li className="list-inline-item"><i className="fab fa-react"></i></li>
                         <li className="list-inline-item"><i className="fab fa-node-js"></i></li>
                         <li className="list-inline-item"><i className="fab fa-sass"></i></li>
                         <li className="list-inline-item"><i className="fab fa-less"></i></li>
-                        <li className="list-inline-item"><i className="fab fa-wordpress"></i></li>
-                        <li className="list-inline-item"><i className="fab fa-gulp"></i></li>
-                        <li className="list-inline-item"><i className="fab fa-grunt"></i></li>
+                        <li className="list-inline-item"><i className="fab fa-yarn"></i></li>
                         <li className="list-inline-item"><i className="fab fa-npm"></i></li>
+
                     </ul>
                     <div className="subheading mb-3">Workflow</div>
                     <ul className="fa-ul mb-0">
@@ -163,47 +167,14 @@ class Resume extends Component {
             {/* Awards */}
             <section className="resume-section" id="awards">
                 <div className="resume-section-content">
-                    <h2 className="mb-5">Awards & Certifications</h2>
-                    <ul className="fa-ul mb-0">
-                        <li>
-                            <span className="fa-li"><i className="fas fa-trophy text-warning"></i></span>
-                            Google Analytics Certified Developer
-                        </li>
-                        <li>
-                            <span className="fa-li"><i className="fas fa-trophy text-warning"></i></span>
-                            Mobile Web Specialist - Google Certification
-                        </li>
-                        <li>
-                            <span className="fa-li"><i className="fas fa-trophy text-warning"></i></span>
-                            1
-                            <sup>st</sup>
-                            Place - University of Colorado Boulder - Emerging Tech Competition 2009
-                        </li>
-                        <li>
-                            <span className="fa-li"><i className="fas fa-trophy text-warning"></i></span>
-                            1
-                            <sup>st</sup>
-                            Place - University of Colorado Boulder - Adobe Creative Jam 2008 (UI Design Category)
-                        </li>
-                        <li>
-                            <span className="fa-li"><i className="fas fa-trophy text-warning"></i></span>
-                            2
-                            <sup>nd</sup>
-                            Place - University of Colorado Boulder - Emerging Tech Competition 2008
-                        </li>
-                        <li>
-                            <span className="fa-li"><i className="fas fa-trophy text-warning"></i></span>
-                            1
-                            <sup>st</sup>
-                            Place - James Buchanan High School - Hackathon 2006
-                        </li>
-                        <li>
-                            <span className="fa-li"><i className="fas fa-trophy text-warning"></i></span>
-                            3
-                            <sup>rd</sup>
-                            Place - James Buchanan High School - Hackathon 2005
-                        </li>
-                    </ul>
+                    <h2 className="mb-5">Projects</h2>
+                        <ul className="fa-ul mb-0">
+                            <li>
+                                <span className="fa-li"><i className="fas fa-trophy text-warning"></i></span>
+                                <Link to="/covid_tracker">Covid Tracker</Link>
+                            </li>
+                        </ul>
+
                 </div>
             </section>
         </div>
