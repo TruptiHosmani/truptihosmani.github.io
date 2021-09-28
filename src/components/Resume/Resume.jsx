@@ -173,6 +173,10 @@ class Resume extends Component {
                                 <span className="fa-li"><i className="fas fa-trophy text-warning"></i></span>
                                 <Link to="/covid_tracker">Covid Tracker</Link>
                             </li>
+                            <li>
+                                <span className="fa-li"><i className="fas fa-trophy text-warning"></i></span>
+                                <Link to="/todo">Todo</Link>
+                            </li>
                         </ul>
 
                 </div>

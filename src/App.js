@@ -1,5 +1,7 @@
 // import './App.css';
 import Resume from './components/Resume/Resume';
+import Todo from './components/Todo/Todo';
+
 import CovidTracker from './components/CovidTracker/CovidTracker'
 import {
   BrowserRouter as Router,
@@ -13,6 +15,9 @@ function App() {
     <div className="App">
       <Router>
         <Switch>
+        <Route path="/todo">
+              <Todo />
+          </Route>
           <Route path="/covid_tracker">
               <CovidTracker />
           </Route>
