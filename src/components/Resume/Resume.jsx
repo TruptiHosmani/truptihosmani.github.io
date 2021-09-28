@@ -68,27 +68,27 @@ class Resume extends Component {
                     </div>
                     <div className="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div className="flex-grow-1">
-                            <h3 className="mb-0">Web Developer</h3>
-                            <div className="subheading mb-3">Intelitec Solutions</div>
+                            <h3 className="mb-0">Senior Full Stack Developer</h3>
+                            <div className="subheading mb-3">YourMechanic</div>
                             <p>Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.</p>
                         </div>
-                        <div className="flex-shrink-0"><span className="text-primary">December 2011 - March 2013</span></div>
+                        <div className="flex-shrink-0"><span className="text-primary">March 2020 - Current</span></div>
                     </div>
                     <div className="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div className="flex-grow-1">
-                            <h3 className="mb-0">Junior Web Designer</h3>
-                            <div className="subheading mb-3">Shout! Media Productions</div>
+                            <h3 className="mb-0">Full Stack Developer</h3>
+                            <div className="subheading mb-3">InfiniChains</div>
                             <p>Podcasting operational change management inside of workflows to establish a framework. Taking seamless key performance indicators offline to maximise the long tail. Keeping your eye on the ball while performing a deep dive on the start-up mentality to derive convergence on cross-platform integration.</p>
                         </div>
-                        <div className="flex-shrink-0"><span className="text-primary">July 2010 - December 2011</span></div>
+                        <div className="flex-shrink-0"><span className="text-primary">July 2018 - Jan 2020</span></div>
                     </div>
                     <div className="d-flex flex-column flex-md-row justify-content-between">
                         <div className="flex-grow-1">
-                            <h3 className="mb-0">Web Design Intern</h3>
+                            <h3 className="mb-0">Full Stack Developer</h3>
                             <div className="subheading mb-3">Shout! Media Productions</div>
                             <p>Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits. Dramatically visualize customer directed convergence without revolutionary ROI.</p>
                         </div>
-                        <div className="flex-shrink-0"><span className="text-primary">September 2008 - June 2010</span></div>
+                        <div className="flex-shrink-0"><span className="text-primary">Dec 2013 - March 2016</span></div>
                     </div>
                 </div>
             </section>
@@ -99,8 +99,8 @@ class Resume extends Component {
                     <h2 className="mb-5">Education</h2>
                     <div className="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div className="flex-grow-1">
-                            <h3 className="mb-0">GMIT Davangere, India</h3>
-                            <div className="subheading mb-3">Bachelor of Engineering</div>
+                            <h3 className="mb-0">Bachelor of Engineering</h3>
+                            <div className="subheading mb-3">GMIT Davangere, India</div>
                             <div>Computer Science</div>
                             {/* <p></p> */}
                         </div>
@@ -131,7 +131,6 @@ class Resume extends Component {
                         <li className="list-inline-item"><i className="fab fa-less"></i></li>
                         <li className="list-inline-item"><i className="fab fa-yarn"></i></li>
                         <li className="list-inline-item"><i className="fab fa-npm"></i></li>
-
                     </ul>
                     <div className="subheading mb-3">Workflow</div>
                     <ul className="fa-ul mb-0">
